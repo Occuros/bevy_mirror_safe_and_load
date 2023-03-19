@@ -1,0 +1,13 @@
+[package]
+name = "simple_bevy_test"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+bevy = "0.10.0"
+bevy_editor_pls = { git = "https://github.com/jakobhellermann/bevy_editor_pls" }
+egui_dock = { git = "https://github.com/Adanos020/egui_dock", branch = "fix-clear-background"}
+bevy_rapier3d = {version = "0.21.0", features=["serde-serialize", "dim3"]}
+bevy_mod_component_git = { git = "https://github.com/devildahu/bevy_mod_component_mirror" }
