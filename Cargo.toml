@@ -10,4 +10,4 @@ bevy = "0.10.0"
 bevy_editor_pls = { git = "https://github.com/jakobhellermann/bevy_editor_pls" }
 egui_dock = { git = "https://github.com/Adanos020/egui_dock", branch = "fix-clear-background"}
 bevy_rapier3d = {version = "0.21.0", features=["serde-serialize", "dim3"]}
-bevy_mod_component_git = { git = "https://github.com/devildahu/bevy_mod_component_mirror" }
+bevy_mod_component_mirror = { git = "https://github.com/devildahu/bevy_mod_component_mirror" }
